@@ -1,0 +1,146 @@
+/*custom styling*/
+body , html{
+	padding: 0px !important;
+	padding-right: 0px !important;
+	margin: 0px !important;
+	overflow-x: hidden !important;
+}
+/*p , a , li , span , button , i , h1 , h2 , h3 , h4 , h5 , h6 , div{
+	font-family: 'HelveticaLight', Tahoma, sans-serif;
+}*/
+.cstm-col{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.cstm-row{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+body{
+	background: url(../images/login_cover.jpg) , rgba(0,0,0,.075);
+	/*background: url(../images/bg2.jpg) , rgba(52, 122, 212, 0.7); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+}
+
+/*top*/
+.top{
+	position: relative;
+}
+.top:before{
+	background: url(../images/leftVector.png);
+	background-repeat: no-repeat;
+	width: 95px;
+    height: 95px;
+    background-size: contain;
+    /*content: "";*/
+    position: absolute;
+    top: 10px;
+    left: 30px;
+
+}
+.topHeading{
+	padding: 20px 0px;
+	text-align: center;
+}
+.topHeading h6{
+	color: #fff;
+	margin: 0;
+	font-size: 30px;
+    font-family: sans-serif;
+}
+.topHeading h6 span{
+	position: relative;
+}
+.topHeading h6 span::before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 75%;
+	bottom: -5px;
+	left: 0;
+	background: #fff;
+}
+.thesis-form{
+	position: relative;
+	margin-bottom: 30px;
+}
+.thesis-form:before{
+	position: absolute;
+	/*content: "";*/
+	width: 95px;
+	height: 95px;
+	background: url(../images/rightVector.png);
+	right: 30px;
+	bottom: 5px;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.thesisFromGroup label{
+	font-size: 16px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.form-row>.col, .form-row>[class*=col-]{
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
+.ThesisFormGroup label{
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.ThesisFormGroup input:focus , .ThesisFormGroup select:focus{
+	box-shadow: unset;
+	outline: 0;
+	border: 1px solid #68c2db;
+}
+.thesisForm h6{
+	margin-bottom: 15px;
+    /*background: #4c6da6; */
+    padding: 7px 15px;
+    border-top-left-radius: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.thesisForm {
+	border: 2px solid #e9ecef;
+	border-top-left-radius: 12px;
+	position: relative;
+	/*box-shadow: 1px 1px 5px 1px #333232; */
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*
+.thesisForm:before{
+	content: "";
+	position: absolute;
+	top: 2px;
+    left: 0px;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    width: 100%;
+    height: 100%;
+    background: #4c6da6;
+    z-index: -1;
+} */
+
+.ThesisFormGroup {
+	padding: 0px 15px;
+}
+p.radioLabel{
+	font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.ThesisBtn{
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 6px 25px;
+	font-size: 14px;
+	font-family: sans-serif;
+	background: transparent;
+}
